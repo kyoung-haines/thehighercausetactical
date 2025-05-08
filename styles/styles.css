@@ -1,3 +1,6 @@
+* {
+    overflow: hidden;
+}
 body {
     background-color: black;
     font-family: sans-serif;
@@ -6,11 +9,6 @@ body {
     justify-content: center;
     align-items: center;
     opacity: 0.95;
-    filter:
-        grayscale(10%)
-        brightness(95%)
-        contrast(90%)
-        sepia(20%);
 }
 header {
     display: none;
